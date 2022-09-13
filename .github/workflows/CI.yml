@@ -30,6 +30,8 @@ jobs:
             targets: "PSG1218"
           - build_variant: "mt7621"
             targets: "K2P_nano K2P"
+          - build_variant: "mt7621-usb"
+            targets: "MSG1500"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
